@@ -2,7 +2,7 @@ Code Book
 =========
 Source data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-###Source data were transformed according this algorithm
+###Source data transformed according this algorithm
 
 * Merges the training and the test sets to create one data set.
 * Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -10,7 +10,8 @@ Source data collected from the accelerometers from the Samsung Galaxy S smartpho
 * Appropriately labels the data set with descriptive variable names. 
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-  Output available in result_dataset.txt.
+###Output file
+  Available after running script from run_analysis.R in R working directory - result_dataset.txt.
   
 ###Variables
 
