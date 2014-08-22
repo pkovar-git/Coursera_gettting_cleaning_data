@@ -18,7 +18,7 @@ Source data collected from the accelerometers from the Samsung Galaxy S smartpho
 * activity : activity description (LAYING,SITTING,STANDING,WALKING,WALKING_DOWNSTAIRS,WALKING_UPSTAIRS) 
 * subject.id : id of subject who performed activity
 
-next variables are cumulative to activity and subject and represent mean or standard deviation(std) of variable described in above mentioned website.
+next variables hold avarage value of the variable (the same name as variable described in the above mentioned website) for the activity and the subject.
 
 * tBodyAcc-mean()-X
 * tBodyAcc-mean()-Y
