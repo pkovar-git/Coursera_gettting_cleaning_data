@@ -17,3 +17,17 @@ Extracts only the measurements on the mean and standard deviation for each measu
 Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names. 
 Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+
+##Solution
+
+Follow these steps to get result tidy dataset.
+
+* Put enlosed run_analysis.R script into your R working directory.
+* Load the script source('run_analysis.R')
+* Execute run_analysis() function
+* The script creates ./data directory in R working directory, downloads source data and unzips it.
+* If you don't have internet conectivity put mentioned zip file manually into working directory.
+* You will find output result_dataset.txt file in working directory after the script is finished.
+
+Package which have to be installed: reshape2,plyhr
