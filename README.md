@@ -30,4 +30,4 @@ Follow these steps to get result tidy dataset.
 * If you don't have internet conectivity put mentioned zip file manually into working directory.
 * You will find output result_dataset.txt file in working directory after the script is finished.
 
-Package which have to be installed: reshape2,plyhr
+Package which have to be installed: reshape2,plyr
